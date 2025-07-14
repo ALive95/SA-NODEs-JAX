@@ -1,3 +1,5 @@
+![Description](figures/detailed_animation.gif)
+
 # SA-NODEs with JAX
 
 A JAX-based implementation for training Semi-Autonomous Neural Ordinary Differential Equations (SA-NODEs).
@@ -6,7 +8,6 @@ This is based on the paper
 "Universal Approximation of Dynamical Systems by Semi-Autonomous Neural ODEs and Applications",
 
 by Ziqian Li and Kang Liu and Lorenzo Liverani (myself) and Enrique Zuazua.
-    
 
 ## Overview
 
