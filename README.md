@@ -9,6 +9,9 @@ This is based on the paper
 
 by Ziqian Li and Kang Liu and Lorenzo Liverani (myself) and Enrique Zuazua.
 
+A big contribution to this code was given by Matthys J. Steynberg (@MJSteynberg). He was the one who originally
+developed the JAX code for NODEs. 
+
 ## Overview
 
 This program implements a SA-NODE system that learns to approximate the dynamics of a 2D or 3D ordinary 
