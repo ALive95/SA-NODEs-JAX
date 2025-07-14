@@ -1,4 +1,4 @@
-![Description](figures/detailed_animation.gif)
+![](figures/readme_animation.gif)
 
 # SA-NODEs with JAX
 
