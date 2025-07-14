@@ -1,0 +1,32 @@
+{
+  "dataset_size": 100,
+  "time_grid_start": 0.0,
+  "time_grid_end": 5.0,
+  "time_grid_points": 200,
+  "batch_size": 100,
+  "learning_rate": 0.001,
+  "steps_strategy": [],
+  "length_strategy": [
+    1.0
+  ],
+  "width_size": 200,
+  "depth": 1,
+  "lambda_reg": 1e-06,
+  "decay_rate": 0.9,
+  "transition_steps": 1000,
+  "seed": 8,
+  "print_every": 100,
+  "plot": true,
+  "plot_samples": 100,
+  "plot_max_trajectories": 20,
+  "plot_save_path": "figures/jax_Compare.png",
+  "plot_dpi": 300,
+  "plot_figsize": [
+    16,
+    6
+  ],
+  "model_save_path": "models/neural_ode_model.pkl",
+  "load_existing": true,
+  "save_final": false,
+  "save_intermediate": false
+}
