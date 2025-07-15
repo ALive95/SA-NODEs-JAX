@@ -16,14 +16,16 @@ developed the JAX code for NODEs.
 
 This program implements a SA-NODE system that learns to approximate the dynamics of a 2D or 3D ordinary 
 differential equation. In particular, given an ODE system (possibly nonautonomous)
-<div align="center">
-  <img src="images/ODE.png" alt="" width="400">
-</div>
+<p align="center">
+  <img src="figures/ODE.png" alt="Description of Equation 1" style="width: 150px; display: block; margin: auto;">
+</p>
 we find an approximation of the form
-<div align="center">
-  <img src="images/SANODE.png" alt="" width="400">
-</div>
-where 
+<p align="center">
+  <img src="figures/SANODE.png" alt="Description of Equation 2" style="width: 300px; display: block; margin: auto;">
+</p>
+where A, B, C and W are trainable parameters, independent of time. 
+It is important to note that our goal is thus to track trajectories,
+differently than other Neural ODEs implementations, that focus only on the last value.
 The system uses JAX for automatic differentiation and just-in-time compilation, 
 Equinox for neural network components, and Diffrax for ODE solving.
 
