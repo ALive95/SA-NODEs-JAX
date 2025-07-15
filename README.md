@@ -9,8 +9,8 @@ This is based on the paper
 
 by Ziqian Li and Kang Liu and Lorenzo Liverani (myself) and Enrique Zuazua.
 
-A big contribution to this code was given by **Matthys J. Steynberg (@MJSteynberg)**. He was the one who originally
-developed the JAX code for NODEs. 
+A crucial contribution to this code was given by **Matthys J. Steynberg (@MJSteynberg)**. He was the one who originally
+developed the whole JAX pipeline for SANODEs. 
 
 ## Overview
 
