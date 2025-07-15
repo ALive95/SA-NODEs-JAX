@@ -15,7 +15,16 @@ developed the JAX code for NODEs.
 ## Overview
 
 This program implements a SA-NODE system that learns to approximate the dynamics of a 2D or 3D ordinary 
-differential equation. The system uses JAX for automatic differentiation and just-in-time compilation, 
+differential equation. In particular, given an ODE system (possibly nonautonomous)
+<div align="center">
+  <img src="images/ODE.png" alt="" width="400">
+</div>
+we find an approximation of the form
+<div align="center">
+  <img src="images/SANODE.png" alt="" width="400">
+</div>
+where 
+The system uses JAX for automatic differentiation and just-in-time compilation, 
 Equinox for neural network components, and Diffrax for ODE solving.
 
 ## Features
