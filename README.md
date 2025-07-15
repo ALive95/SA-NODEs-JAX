@@ -64,8 +64,6 @@ pip install matplotlib  # For plotting utilities
 ### 1. Basic Usage
 
 ```python
-from neural_ode_trainer import main
-
 # Train with default configuration
 main()
 ```
@@ -73,10 +71,6 @@ main()
 ### 2. Using Configuration Files
 
 ```python
-# Create default configuration files
-from neural_ode_trainer import create_default_configs
-create_default_configs()
-
 # Train with specific configuration
 main(config_path="configs/high_quality.json")
 ```
@@ -84,8 +78,6 @@ main(config_path="configs/high_quality.json")
 ### 3. Custom Configuration
 
 ```python
-from neural_ode_trainer import Config, main
-
 # Create custom configuration
 config = Config(
     dataset_size=200,
@@ -224,7 +216,8 @@ project/
 │   └── neural_ode_model.pkl
 └── figures/                 # Generated plots and animations
     ├── jax_Compare.png
-    └── detailed_animation.gif
+    ├── detailed_animation.gif
+    └── (some extra images I needed for the readme)
 ```
 
 ## Model Persistence
